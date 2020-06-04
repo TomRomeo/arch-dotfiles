@@ -1,0 +1,1 @@
+/home/osaka/.local/share/omf/themes/fishface/fish_prompt.fish
