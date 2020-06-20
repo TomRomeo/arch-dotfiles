@@ -44,6 +44,10 @@ if dein#load_state('~/.vim/bundles')
   call dein#add('w0rp/ale')
   " installing the gitgutter plugin
   call dein#add('airblade/vim-gitgutter')
+  " installing the auto pars plugin
+  call dein#add('jiangmiao/auto-pairs')
+  " installing the vim-multiple-cursors plugin
+  call dein#add('terryma/vim-multiple-cursors')
   if !has('nvim')
     call dein#add('roxma/nvim-yarp')
     call dein#add('roxma/vim-hug-neovim-rpc')
