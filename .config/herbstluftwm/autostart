@@ -22,7 +22,7 @@ hc keybind $Mod-Shift-q quit
 hc keybind $Mod-Shift-r reload
 hc keybind $Mod-Shift-c close
 picom -f &
-hc keybind $Mod-Return spawn urxvt +sb -name Terminal -fn "xft:Bitstream Vera Sans Mono" -fade 10 -depth 32 -fg white -bg rgba:2000/2000/2000/9999 -e /usr/bin/fish
+hc keybind $Mod-Return spawn urxvt +sb -name Terminal -fn "xft:DejaVu Serif Condensed" -letsp -3 -fade 20 -depth 32 -fg white -bg rgba:2000/2000/2000/F000 -e /usr/bin/fish
 
 # basic movement
 # focusing clients

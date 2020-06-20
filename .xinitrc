@@ -54,6 +54,8 @@ fi
 #xterm -geometry 80x20+494-0 &
 #exec xterm -geometry 80x66+0+0 -name login
 #feh --bg-scale ~/Wallpapers/background.jpg
-feh --bg-scale ~/Wallpapers/scifi.jpg
+xrandr --output HDMI-2 --right-of HDMI-0
+#xrandr --output HDMI-0 --auto --left-of HDMI-2
+feh --bg-scale ~/Wallpapers/scificity.jpg
 
-exec herbstluftwm
+exec dwm >~/.dwm.log
