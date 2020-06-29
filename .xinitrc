@@ -58,4 +58,10 @@ xrandr --output HDMI-2 --right-of HDMI-0
 #xrandr --output HDMI-0 --auto --left-of HDMI-2
 feh --bg-scale ~/Wallpapers/scificity.jpg
 
+# map the caps key to the escape key for vim
+#setxkbmap -option caps: escape
+xmodmap ~/.speedswapper
+
+# initialize the statusbar
+(conky | while read LINE; do xsetroot -name "$LINE"; done) &
 exec dwm >~/.dwm.log
