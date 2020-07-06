@@ -129,6 +129,13 @@ if dein#load_state('~/.vim/bundles')
 
 
     call dein#add('ycm-core/YouCompleteMe')
+    " ycm configuration
+    " let g:ycm_autoclose_preview_window_after_insertion = 1
+    let g:ycm_autoclose_preview_window_after_completion = 1
+    " let g:ycm_global_ycm_extra_conf = '~/.vim/bundles/repos/github.com/ycm-core/YouCompleteMe/third_party/ycmd/.ycm_extra_conf.py'
+    
+
+    call dein#add('rdnetto/YCM-Generator')
 
     " installing vim-airline ( status bar )
 
