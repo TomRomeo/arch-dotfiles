@@ -1,0 +1,15 @@
+#URxvt*font: xft:DejaVu Serif Condensed:pixelsize=14
+#URxvt*font: xft:DejaVu Sans Mono for Powerline:pixelsize=15
+URxvt*font: xft:monofur for Powerline:pixelsize=18
+
+# for resizing the font on the fly
+URxvt.perl-ext-common: resize-font
+
+
+#URxvt*letterSpace: -3
+URxvt*scrollBar: false
+URxvt*depth: 32
+URxvt*fading: 20
+URxvt*foreground: white
+URxvt*background: rgba:2000/2000/2000/F000
+
