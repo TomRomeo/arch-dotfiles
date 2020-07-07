@@ -117,7 +117,7 @@ if dein#load_state('~/.vim/bundles')
  
 
     " installing the css-color plugin to show hex colors in their color
-    call dein#add('ap/vim-css-color')
+    call dein#add('etdev/vim-hexcolor')
 
 
     " installing fzf for vim
